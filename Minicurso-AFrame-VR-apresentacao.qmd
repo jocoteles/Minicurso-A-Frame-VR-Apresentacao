@@ -1,0 +1,101 @@
+---
+title: "Realidade Virtual com A-Frame para Ensino de Física e Astronomia"
+author: João Teles de Carvalho Neto
+institute: "CCA/UFSCar"
+date: "17 10 2024"
+format:
+    revealjs:
+        incremental: true
+        footer: |
+            | Workshop - Plataformas de desenvolvimento de atividades de Realidade Virtual
+            | para o Ensino de Física e Astronomia"
+        logo: Logo-minicurso-AFrame-Astronomia.png
+        css: logo.css
+        theme: sky
+lang: pt
+---
+
+Esta é uma apresentação bem simplificada do minicurso. Para acompanhá-la, o tutorial completo deve ser acessado em:
+
+[jocoteles.github.io/Minicurso-A-Frame-VR/](https://jocoteles.github.io/Minicurso-A-Frame-VR/)
+
+ou, ao final da página inicial do site do ObseRVe: [observe.ufscar.br](https://observe.ufscar.br/) 
+
+# Apresentação
+
+## Objetivos 
+
+Este minicurso visa introduzir os participantes ao desenvolvimento de aplicações de RV para o ensino de astronomia utilizando a plataforma **A-Frame**, com base na linguagem HTML/Javascript. Ao final do curso, os participantes construirão um sistema solar virtual simplificado, com o Sol, a Terra e a Lua, incluindo movimento orbital e de rotação. O curso aborda os conceitos básicos de modelagem 3D, animação, iluminação e interação no ambiente A-Frame. Devido ao tempo limitado, o curso não explora programação avançada em Javascript, a criação de componentes personalizados nem a integração com **Three.js**. 
+
+## Justificativa
+
+- Vantagens das Aplicações Web em Realidade Virtual
+- Realidade Virtual em Headsets versus Smartphones
+- WebXR: A API para Realidade Virtual na Web
+- Plataformas Web para Realidade Virtual com WebXR:
+    - [**Three.js**](https://threejs.org/) 
+    - [**Babylon.js**](https://www.babylonjs.com/) 
+    - [**A-Frame**](https://aframe.io/)
+- Principais características do A-Frame
+
+
+# HTML/Javascript básico
+
+## Estrutura básica de uma página HTML
+
+- Elementos HTML
+- Adicionando lógica e programação com Javascript
+- Interagindo HTML com Javascript
+
+## Estrutura completa de uma página HTML
+
+## Disponibilizando páginas web diretamente na Internet com Glitch {#sec-glitch}
+
+
+# O projeto Sol-Terra-Lua
+
+## O que faremos {.smaller}
+
+- Criar as esferas solar, terrestre e lunar no espaço tridimensional em realidade aumentada.
+- Texturizar a superfície das esferas com os mapas dos respectivos astros.
+- Estabelecer os tamanhos e posições dos astros de forma pertinente aos objetivos didáticos de uma atividade educacional.
+- Implementar o movimento de rotação de cada astro em torno do próprio eixo.
+- Definir o plano orbital da Terra e da Lua.
+- Implementar o movimento orbital de translação da Terra e da Lua.
+- Dar interatividade aos objetos celestes.
+
+## Elementos HTML do A-Frame
+
+## Carregando arquivos externos em nosso projeto STL
+
+## Sistemas de coordenadas no A-Frame
+
+## Cada astro em seu lugar
+
+## Animando as coisas
+
+- Movimento orbital
+- Movimento de rotação
+- Movimento completo
+
+## Refinando o sistema
+
+- Inclinação do eixo de rotação da Terra
+- Inclinação do plano orbital da Lua
+- The dark side of the Moon
+
+## Fiat lux
+
+## Elementos gráficos de referência
+
+- Seta do eixo de rotação terrestre
+- Planos orbitais
+- Mapa do céu noturno
+
+## Resultado final
+
+## Aprimoramentos
+
+- Com os pés no chão
+- Interação com os objetos
+- Configurando a aplicação web para uso offline
